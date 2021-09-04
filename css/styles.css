@@ -146,17 +146,16 @@ main {
 /* END OF STYLING FOR SKILLS SECTION COLUMNS */
 
 /* Correcting Styles */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   body{
     width: 1200px;
+  }
+  dl{
+    font-size:small;
   }
 }
 
 body{
   overflow: auto;
-}
-
-dl{
-  font-size:small;
 }
 
