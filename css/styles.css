@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+img {
+  width: 160px;
+  border-radius: 80%;
+}
+#profile-img{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+body{
+  background: #fff url("../bg-image1.jpg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+button{
+  padding: 5px;
+  font-weight: bold;
+  background-color: darkslategray;
+  color: #fff;
+  transition: 0.5s ease;
+}
+button:hover{
+  background-color: #fff;
+  color: #000000;
+  transition: 0.5s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Times New Roman", Times, serif;
+}
+
+main {
+  width: 216mm;
+  height: 356mm;
+  margin: 30mm 45mm 30mm 45mm;
+  box-shadow: 2px 3px 5px 3px #444;
+}
+
+/* STYLING THE FIRST OUTER COLUMN */
+.outercolumn {
+  padding: 15px;
+  margin: 0;
+  float: left;
+  height: 100%;
+}
+.out-column1 {
+  width: 35%;
+  background-color: darkslategray;
+  color: #fff;
+  padding: 20px;
+  line-height: 6mm;
+}
+.out-column1 > section {
+  padding: 10px;
+}
+.out-column1 ul{
+  list-style-type: none;
+}
+.out-column1 h3 {
+  padding-bottom: 3mm;
+  border-bottom: 3px solid #fff;
+}
+.out-column2 {
+  width: 65%;
+  background-color: #fff;
+}
+/* END OF STYLING FOR THE FIRST OUTER COLUMN */
+
+/* STYLING THE SECOND OUTER COLUMN */
+.out-column2 {
+  padding: 5mm 10mm;
+}
+#title {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+#firstname {
+  color: darkslategray;
+}
+#subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.out-column2 > section {
+  margin-bottom: 8mm;
+}
+.out-column2 > section > h3 {
+  font-size: 23px;
+  border-bottom: 3px solid darkslategray;
+  padding-bottom: 1mm;
+}
+#description {
+  margin-bottom: 10mm;
+}
+#description .span{
+  color: darkslategray;
+}
+#educationlist {
+  list-style: circle;
+}
+/* END OF STYLING FOR THE SECOND OUTER COLUMN */
+
+/* STYLING THE SKILLS SECTION COLUMNS */
+.innercolumn {
+  float: left;
+}
+.inner-row{
+  content: "";
+  display: table;
+  clear: both;
+}
+.in-column1,
+.in-column2 {
+  width: 50%;
+}
+/* END OF STYLING FOR SKILLS SECTION COLUMNS */
+
+/* STYLING THE PROFILE PICTURE */
+
+
+
+
