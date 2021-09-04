@@ -50,6 +50,10 @@ a {
   font-family: "Times New Roman", Times, serif;
 }
 
+dt{
+  font-weight: bold;
+}
+
 main {
   width: 216mm;
   height: 356mm;
@@ -129,6 +133,9 @@ main {
   content: "";
   display: table;
   clear: both;
+}
+.innercolumn h4{
+  text-decoration: underline;
 }
 .in-column1,
 .in-column2 {
