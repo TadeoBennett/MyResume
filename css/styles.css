@@ -10,6 +10,7 @@ html{
   scroll-behavior:smooth;
 }
 
+/* STYLING THE PROFILE PICTURE */
 img {
   width: 160px;
   border-radius: 80%;
@@ -144,8 +145,12 @@ main {
 }
 /* END OF STYLING FOR SKILLS SECTION COLUMNS */
 
-/* STYLING THE PROFILE PICTURE */
 
+@media only screen and (max-width: 600px) {
+  body {
+    width: 800px;
+  }
+}
 
 
 
