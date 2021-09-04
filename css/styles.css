@@ -145,6 +145,7 @@ main {
 }
 /* END OF STYLING FOR SKILLS SECTION COLUMNS */
 
+/* Correcting Styles */
 @media only screen and (max-width: 600px) {
   body{
     width: 1200px;
@@ -153,5 +154,9 @@ main {
 
 body{
   overflow: auto;
+}
+
+dl{
+  font-size:small;
 }
 
