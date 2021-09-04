@@ -24,6 +24,7 @@ body{
   background: #fff url("../bg-image1.jpg");
   background-attachment: fixed;
   background-repeat: repeat;
+  overlow: auto;
 }
 
 button{
